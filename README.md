@@ -61,7 +61,8 @@ run_analysis<-function(){
 
 ##5)From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-    We make use of the functions group_by and summarise_each from the dplyr package to achieve this.  
+    We make use of the function group_by() to group the data by the Activity and the Subject column. We then
+    use the function summarise_each() to calculate the correct averages.  
 
     
     
