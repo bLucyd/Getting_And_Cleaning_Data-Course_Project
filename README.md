@@ -1,4 +1,4 @@
-run_analysis<-function(){
+# Description of Script: run_analysis
     
   
 ##1) Merges the training and the test sets to create one data set 
@@ -31,7 +31,8 @@ run_analysis<-function(){
     
     Get the column-numbers that contain the means and standard deviations of the
     33 features listed in features_info.txt using the grepl() function and the file features.txt. 
-    (Do not use the columns containing the angle() variables, as the do contain the word mean but do represent     means, they only need means to be calculated.)
+    (Do not use the columns containing the angle() variables, as they do contain the word mean but do
+    not represent means, they are only needed for the angle variables to be calculated.)
 
     Store those column numbers and the corresponding feature names in a dataframe called
     features.    
